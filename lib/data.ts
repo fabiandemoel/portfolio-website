@@ -1,5 +1,13 @@
 export const projects = [
   {
+    title: "Cairn",
+    description:
+      "An auditable, queryable benchmark over official EU/NL climate data — every figure traces back to a hash-pinned official source, with a downloadable CSRD/ESRS E1 disclosure bundle.",
+    technologies: ["Evidence.dev", "DuckDB", "dbt", "Python", "Data"],
+    github: "https://github.com/fabiandemoel/Cairn",
+    demo: "https://cairn.fabiandemoel.nl",
+  },
+  {
     title: "Generative AI Platform",
     description:
       "Led the architecture and development of a Retrieval-Augmented Generation (RAG) platform for enterprise use.",
