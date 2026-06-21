@@ -309,6 +309,42 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="group relative overflow-hidden rounded-lg border bg-background p-6 shadow-sm transition-shadow hover:shadow-md">
               <div className="space-y-2">
+                <h3 className="text-xl font-semibold">Cairn</h3>
+                <p className="text-muted-foreground">
+                  An auditable, queryable benchmark over official EU/NL climate data — every figure traces back to a
+                  hash-pinned official source, with a downloadable CSRD/ESRS E1 disclosure bundle.
+                </p>
+                <div className="pt-4">
+                  <h4 className="text-sm font-medium">Technologies</h4>
+                  <div className="flex flex-wrap gap-2 mt-2">
+                    <SkillBadge name="Evidence.dev" />
+                    <SkillBadge name="DuckDB" />
+                    <SkillBadge name="dbt" />
+                    <SkillBadge name="Python" />
+                  </div>
+                </div>
+                <div className="pt-4 flex flex-wrap gap-4">
+                  <a
+                    href="https://github.com/fabiandemoel/Cairn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary hover:underline inline-flex items-center"
+                  >
+                    Code <MoveRight className="ml-1 h-4 w-4" />
+                  </a>
+                  <a
+                    href="https://cairn.fabiandemoel.nl"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary hover:underline inline-flex items-center"
+                  >
+                    Live Demo <MoveRight className="ml-1 h-4 w-4" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="group relative overflow-hidden rounded-lg border bg-background p-6 shadow-sm transition-shadow hover:shadow-md">
+              <div className="space-y-2">
                 <h3 className="text-xl font-semibold">Excel AI Assistant</h3>
                 <p className="text-muted-foreground">
                   Developed an AI-powered Excel assistant as part of the Generative AI Suite for Intergamma. This tool
