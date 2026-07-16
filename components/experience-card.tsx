@@ -1,9 +1,10 @@
-import { Building, Calendar, ArrowRight } from "lucide-react"
+import { Building, Calendar, MapPin, ArrowRight } from "lucide-react"
 
 interface ExperienceCardProps {
   title: string
   company: string
   period: string
+  location?: string
   responsibilities: string[]
   isLast?: boolean
 }
@@ -12,6 +13,7 @@ export default function ExperienceCard({
   title,
   company,
   period,
+  location,
   responsibilities,
   isLast = false,
 }: ExperienceCardProps) {
@@ -40,6 +42,12 @@ export default function ExperienceCard({
                 <p>{period}</p>
               </div>
             </div>
+            {location && (
+              <div className="flex items-center gap-1.5 text-sm text-muted-foreground">
+                <MapPin size={14} className="text-primary" />
+                <p>{location}</p>
+              </div>
+            )}
           </div>
 
           {/* Responsibilities */}
