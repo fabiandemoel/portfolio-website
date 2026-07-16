@@ -96,9 +96,39 @@ export default function Home() {
           </div>
           <div className="timeline mt-12 relative">
             <ExperienceCard
+              title="Data Engineer (via Citrus)"
+              company="Energie Data Services Nederland (EDSN)"
+              period="June 2026 – Present"
+              location="Amersfoort, Utrecht, Netherlands · Hybrid"
+              responsibilities={[
+                "Data engineering for EDSN, the central data hub of the Dutch energy market, on assignment via Citrus.",
+                "Building and orchestrating data pipelines with Snowflake and Apache Airflow.",
+              ]}
+            />
+            <ExperienceCard
+              title="Data & AI Engineer"
+              company="Citrus"
+              period="April 2025 – Present"
+              location="Amsterdam, North Holland, Netherlands"
+              responsibilities={[
+                "Working as a Data & AI Engineer at Citrus, the refreshing alternative in the world of IT consultancy.",
+                "Delivering data engineering and AI solutions on client engagements across the energy sector.",
+              ]}
+            />
+            <ExperienceCard
+              title="Data Engineer (via Citrus)"
+              company="Eneco"
+              period="April 2025 – May 2026"
+              location="Rotterdam, South Holland, Netherlands · Remote"
+              responsibilities={[
+                "Within Eneco's Finance Transformation Team, designed and implemented a process for structural quality controls of financial and non-financial master data from diverse sources, including SAP S/4HANA.",
+                "Leveraged Snowflake and Collibra Data Governance Center to drive data quality and governance.",
+              ]}
+            />
+            <ExperienceCard
               title="Data & AI Engineer"
               company="Intergamma"
-              period="October 2022 – Present"
+              period="October 2022 – March 2025"
               responsibilities={[
                 "Developed data pipelines, managed migration of legacy systems to Snowflake cloud.",
                 "Led creation and architecture of a Generative AI platform using Retrieval-Augmented Generation (RAG).",
